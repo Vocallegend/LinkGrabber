@@ -10,9 +10,9 @@ import type {
 
 // API configuration - update these when backend is connected
 const API_CONFIG = {
-  baseUrl: '/api', // Will be updated to actual backend URL
+  baseUrl: 'http://localhost:3000/api', // Backend API URL
   timeout: 30000,
-  isConnected: false, // Set to true when backend is available
+  isConnected: true, // Backend is now available
 };
 
 /**
